@@ -7,7 +7,7 @@ require('dotenv').config();
 require('./helper/init_mongoDb')
 const Port = process.env.PORT || 5000;
 
-// add cmnt
+// add cmn
 
 app.use(express.json()) //body-parser middleWare
 // app.use(morgan('dev')) 

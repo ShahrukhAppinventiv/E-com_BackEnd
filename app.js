@@ -7,7 +7,7 @@ const Port = process.env.PORT;
 const MongoURL = process.env.MongoUrl;
 
 
-//body-parser middleWare
+//body-parser middleWar
 app.use(express.json())
 
 app.get('/',(req,res)=>{
